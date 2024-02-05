@@ -1,10 +1,11 @@
-#Serviço de e-mail#
-Crie um serviço que aceite as informações necessárias e envie emails. Deve fornecer uma abstração entre dois provedores de serviços de e-mail diferentes. Se um dos serviços falhar, seu serviço poderá fazer failover rapidamente para um provedor diferente sem afetar seus clientes.
+Serviço de E-mail Abstrato
+Este projeto oferece um serviço de e-mail que facilita o envio de e-mails, proporcionando uma abstração entre diferentes provedores de serviços de e-mail. Em caso de falha de um provedor, o serviço é capaz de realizar failover rapidamente para outro provedor, garantindo a continuidade do envio de e-mails para os clientes.
 
-Exemplo de provedores de e-mail:
+Provedores de E-mail Suportados
+SendGrid - Documentação de envio simples disponível aqui
+Mailgun - Documentação de envio simples disponível aqui
+SparkPost - Centro do desenvolvedor disponível aqui
+Amazon SES – Documentação de envio simples disponível aqui
+Todos os serviços mencionados acima oferecem opções gratuitas para testes, sendo simples de se inscrever. Certifique-se de criar suas próprias contas de teste em cada provedor para começar a utilizar este serviço.
 
-SendGrid - Documentação de envio simples
-Mailgun - Documentação de envio simples
-SparkPost - Centro do desenvolvedor
-Amazon SES – Documentação de envio simples
-Todos os serviços listados são gratuitos para testar e bastante simples de se inscrever, portanto, registre suas próprias contas de teste em cada um.
+Como Usar
