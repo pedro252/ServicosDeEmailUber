@@ -16,6 +16,4 @@ Este projeto oferece um serviço de e-mail que facilita o envio de e-mails, prop
 - **Amazon SES**
   > Documentação de envio simples
 
-Todos os serviços mencionados acima oferecem opções gratuitas para testes, sendo simples de se inscrever. Certifique-se de criar suas próprias contas de teste em cada provedor para começar a utilizar este serviço.
-
-Como Usar
+Todos os serviços mencionados acima oferecem opções gratuitas para testes, sendo simples de se implementar. Certifique-se de criar suas próprias contas de teste em cada provedor para começar a utilizar este serviço.
